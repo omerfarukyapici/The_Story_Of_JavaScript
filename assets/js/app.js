@@ -1,12 +1,10 @@
 //Character
 const mainCharacter = document.createElement('img');
+mainCharacter.src = '../assets/img/mainCharacter.svg';
+mainCharacter.style.width = '8rem';
+mainCharacter.style = 'border-bottom: 0.1rem solid black;';
+mainCharacter.style.display = 'none;';
 
-(async () => {
-    mainCharacter.src = '../assets/img/mainCharacter.svg';
-    mainCharacter.style.width = '8rem';
-    mainCharacter.style = 'border-bottom: 0.1rem solid black;';
-    mainCharacter.style.display = 'none;';
-})();
 
 const src = document.querySelector('.root');
 src.appendChild(mainCharacter);
